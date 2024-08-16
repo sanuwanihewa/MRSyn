@@ -46,4 +46,4 @@ python test.py --image_size 256 --exp exp_syn --num_channels 2 --num_channels_da
 
 
 **Acknowledgements**
-This repository makes liberal use of code from [SynDiff]([https://github.com/NVlabs/denoising-diffusion-gan](https://github.com/icon-lab/SynDiff))
+This repository makes liberal use of code from [SynDiff](https://github.com/NVlabs/denoising-diffusion-gan](https://github.com/icon-lab/SynDiff)
