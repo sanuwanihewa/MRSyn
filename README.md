@@ -2,6 +2,8 @@
 
 ![](https://github.com/sanuwanihewa/MRSyn/blob/main/figures/animated.gif)
 
+The above figure shows the images in the order of conditional FLAIR contrast, Synthesized T2 contrast and Real T2 contrast
+
 ### Dataset Preparation
 
 We will be using 100 middle axial slices of T2 and FLAIR contrasts from Brats dataset and save each as .npy file.
