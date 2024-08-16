@@ -9,7 +9,7 @@ The above figure shows the images in the order of conditional FLAIR contrast, Sy
 ### Dataset Preparation
 
 We will be using 100 middle axial slices of T2 and FLAIR contrasts from Brats dataset and save each as .npy file.
-You can use the python script [data_process.py](data_process.py) to prepare the dataset or download sample data from [here] (https://drive.google.com/drive/folders/1jFFU9rmnR7KjZR_c8YWNJ657ccHWtd7J?usp=sharing)
+You can use the python script [data_process.py](data_process.py) to prepare the dataset or download sample data from [here](https://drive.google.com/drive/folders/1jFFU9rmnR7KjZR_c8YWNJ657ccHWtd7J?usp=sharing)
 
 The structure of the dataset should be as follows.
 ```
@@ -39,7 +39,11 @@ python test.py --image_size 256 --exp exp_syn --num_channels 2 --num_channels_da
 ```
 
 ### Download Pre-trained Weights
-[pre-trained weights] (https://drive.google.com/drive/folders/1C1OXr8kno-IrooI8YLKZ-DlUKasFarD2?usp=drive_link)
+[pre-trained weights](https://drive.google.com/drive/folders/1C1OXr8kno-IrooI8YLKZ-DlUKasFarD2?usp=drive_link)
 
-###Sample synthesized data
-[sample-data] (https://drive.google.com/drive/folders/14sJuTOER8RkixzLP3HdNLuhT4aBDxfTx?usp=sharing)
+### Sample synthesized data
+[sample-data](https://drive.google.com/drive/folders/14sJuTOER8RkixzLP3HdNLuhT4aBDxfTx?usp=sharing)
+
+
+**Acknowledgements**
+This repository makes liberal use of code from [SynDiff]([https://github.com/NVlabs/denoising-diffusion-gan](https://github.com/icon-lab/SynDiff))
