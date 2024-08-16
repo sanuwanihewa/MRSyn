@@ -7,7 +7,7 @@ The above figure shows the images in the order of conditional FLAIR contrast, Sy
 ### Dataset Preparation
 
 We will be using 100 middle axial slices of T2 and FLAIR contrasts from Brats dataset and save each as .npy file.
-You can use the python script to prepare the dataset or download sample data from
+You can use the python script[data_process.py](data_process.py) to prepare the dataset or download sample data from
 
 The structure of the dataset should be as follows.
 ```
