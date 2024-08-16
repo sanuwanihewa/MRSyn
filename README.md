@@ -1,5 +1,7 @@
 # MRI Synthesis using Adversarial Diffusion
 
+![](https://github.com/sanuwanihewa/MRSyn/blob/main/figures/animated.gif)
+
 ### Dataset Preparation
 
 We will be using 100 middle axial slices of T2 and FLAIR contrasts from Brats dataset and save each as .npy file.
