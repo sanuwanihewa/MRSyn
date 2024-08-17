@@ -35,7 +35,7 @@ python train.py --image_size 256 --exp exp_syn--num_channels 2 --num_channels_da
 ### Model Testing
 
 ``` 
-python test.py --image_size 256 --exp exp_syn --num_channels 2 --num_channels_dae 64 --ch_mult 1 1 2 2 4 4 --num_timesteps 4 --num_res_blocks 2 --batch_size 1 --embedding_type positional  --z_emb_dim 256  --which_epoch 50 --gpu_chose 0 --input_path '/data/shew0029/MedSyn/DATA/BRATS/' --output_path '/data/shew0029/MedSyn/VQGAN_3D/mrisyn/results'
+python test.py --image_size 256 --exp exp_syn --num_channels 2 --num_channels_dae 64 --ch_mult 1 1 2 2 4 4 --num_timesteps 4 --num_res_blocks 2 --batch_size 1 --embedding_type positional  --z_emb_dim 256  --which_epoch 50 --gpu_chose 0 --input_path 'your_input_path' --output_path 'your_output_path'
 ```
 
 ### Download Pre-trained Weights
