@@ -173,22 +173,6 @@ def sample_posterior(coefficients, x_0, x_t, t):
 
     return sample_x_pos
 
-
-def sample_posterior_combine(coefficients, x_0_1, x_0_2, x_t, t):
-    def q_posterior(x_0_1, x_0_2, x_t, t):
-        mean1 = (
-                extract(coefficients.posterior_mean_coef1, t, x_t.shape) * x_0_1
-                + extract(coefficients.posterior_mean_coef2, t, x_t.shape) * x_t
-        )
-        mean2 = (
-                extract(coefficients.posterior_mean_coef1, t, x_t.shape) * x_0_2
-                + extract(coefficients.posterior_mean_coef2, t, x_t.shape) * x_t
-        )
-        mean = (mean1 + mean2) / 2
-        var = extract(coefficients.posterior_variance, t, x_t.shape)
-        log_var_clipped = extract(coefficients.posterior_log_variance_clipped, t, x_t.shape)
-        return mean, var, log_var_clipped
-
     def p_sample(x_0_1, x_0_2, x_t, t):
         mean, _, log_var = q_posterior(x_0_1, x_0_2, x_t, t)
 
